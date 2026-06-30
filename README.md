@@ -1,7 +1,7 @@
 # Analog Light Intensity Meter
 
 I wanted to make some projects without microcontroller so I made this **light intensity meter** which indicates light in 10 distinct levels.
-![3D Model](Analog%20Light%20Intensity%20Meter/Images/3D.PNG)
+![3D Model](Analog%20Light%20Intensity%20Meter/Images/IMG_20260630_160435_224.jpg)
 
 ## Working
 
@@ -10,6 +10,9 @@ The **LM324N IC** contains 4 OpAmps which are being used as Comparaters. They co
 ## PCB and Connections
 
 The Project is powered by a 9V source the thee +9V goes to the VCC of op Amps and top of the voltage divider bridge and top of the sensitivity control area the Gnd goes to the GND of op Amps and bottom of the voltage divider bridge and bottom of the sensitivity control area . The signal from the senstivity control area goes to the +ve of op amps and the 10 voltage levels are connected to -ve of 10 individual op Amps.
+
+** The PCB isn't working but if you try to make it on breadboard using the same schematics then it works fine. 
+
 |Schematics|Tracks|
 | :---: | :---: |
 | ![schemetics](Analog%20Light%20Intensity%20Meter/Images/Schematics.PNG) | ![Tracks](Analog%20Light%20Intensity%20Meter/Images/Tracks.PNG) |
