@@ -11,7 +11,7 @@ The **LM324N IC** contains 4 OpAmps which are being used as Comparaters. They co
 
 The Project is powered by a 9V source the thee +9V goes to the VCC of op Amps and top of the voltage divider bridge and top of the sensitivity control area the Gnd goes to the GND of op Amps and bottom of the voltage divider bridge and bottom of the sensitivity control area . The signal from the senstivity control area goes to the +ve of op amps and the 10 voltage levels are connected to -ve of 10 individual op Amps.
 
-** The PCB isn't working but if you try to make it on breadboard using the same schematics then it works fine. 
+**The PCB isn't working but if you try to make it on breadboard using the same schematics then it works fine.**
 
 |Schematics|Tracks|
 | :---: | :---: |
